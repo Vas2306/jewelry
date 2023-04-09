@@ -1,0 +1,32 @@
+.header-up{
+    background-color: $color-header-up;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.header-up__list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.header-up__text {
+    font-size: 12px;
+        line-height: 1.62;
+        color: inherit;
+        // padding-top: 10px;
+        // padding-bottom: 10px;
+}
+.header-down{
+   padding-top: 19px;
+    padding-bottom: 21px;
+    background-color: $color-header-down;
+}
+.header-down__list{
+display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+.header-down__text{
+    font-size: 14px;
+        line-height: 1.62;
+        letter-spacing: 0.28px;
+}

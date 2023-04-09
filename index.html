@@ -1,15 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
     <title>Document</title>
-    <link ref="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylhesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/main.min.css">
-</head>
-<body>
-    
-</body>
+    <link
+      ref="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylhesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-up">
+        <nav class="container">
+          <ul class="list header-up__list">
+            <li>
+              <a class="link line-link header-up__text" href="">Read our </a>
+            </li>
+            <li>
+              <a class="link line-link header-up__text" href=""
+                >Customer Reviews</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-down">
+        <nav class="container">
+          <ul class="list header-down__list">
+            <li>
+              <a class="link line-link header-down__text" href=""
+                >Engagement
+              </a>
+            </li>
+            <li>
+              <a class="link line-link header-down__text" href="">Wedding</a>
+            </li>
+            <li>
+              <a class="link line-link header-down__text" href="">Custom </a>
+            </li>
+            <li>
+              <a class="link line-link header-down__text" href=""
+                >Fine Jewelry</a
+              >
+            </li>
+            <li>
+              <a class="link line-link header-down__text" href="">Ethics </a>
+            </li>
+            <li>
+              <a class="link line-link header-down__text" href="">About </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero__container">
+          <div class="hero__wrapper">
+            <h1 class="hero__title">We Find Always in All Ways</h1>
+            <p class="hero__text">Our design ethos is gender-neutral and size-inclusive.</p>
+            <div>
+              <a class="link hero__btn--left" href="">Shop Rings</a>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      
+
+
+      <section class="wedding">
+        <div class="container">
+          <swiper-container
+            class="mySwiper"
+            pagination="true"
+            effect="coverflow"
+            grab-cursor="true"
+            centered-slides="true"
+            slides-per-view="auto"
+            coverflow-effect-rotate="50"
+            coverflow-effect-stretch="0"
+            coverflow-effect-depth="100"
+            coverflow-effect-modifier="1"
+            coverflow-effect-slide-shadows="true"
+          >
+            <swiper-slide>
+              <img src="images/wedding-01-min.jpg" />
+              <p class="swiper-text">Cluster Rings</p>
+            </swiper-slide>
+            <swiper-slide>
+              <img src="images/wedding-02-min.jpg" />
+              <p class="swiper-text">Bands</p>
+            </swiper-slide>
+            <swiper-slide>
+              <img src="images/wedding-03-min.jpg" />
+              <p class="swiper-text">Rings</p>
+            </swiper-slide>
+            <swiper-slide>
+              <img src="images/wedding-04-min.jpg" />
+              <p class="swiper-text">Custom Design</p>
+            </swiper-slide>
+          </swiper-container>
+        </div>
+      </section>
+
+      <section class="wedding">
+        <div class="container">
+          <swiper-container
+            class="mySwiper"
+            pagination="true"
+            effect="coverflow"
+            grab-cursor="true"
+            centered-slides="true"
+            slides-per-view="auto"
+            coverflow-effect-rotate="50"
+            coverflow-effect-stretch="0"
+            coverflow-effect-depth="100"
+            coverflow-effect-modifier="1"
+            coverflow-effect-slide-shadows="true"
+          >
+            <swiper-slide>
+              <img src="images/jewerly-01-min.jpg" />
+              <p class="swiper-text">Rings</p>
+            </swiper-slide>
+            <swiper-slide>
+              <img src="images/jewerly-02-min.jpg" />
+              <p class="swiper-text">Bracelets</p>
+            </swiper-slide>
+            <swiper-slide>
+              <img src="images/jewerly-03-min.jpg" />
+              <p class="swiper-text">Necklaces</p>
+            </swiper-slide>
+            <swiper-slide>
+              <img src="images/jewerly-04-min.jpg" />
+              <p class="swiper-text">Earrings</p>
+            </swiper-slide>
+          </swiper-container>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+  </body>
 </html>
