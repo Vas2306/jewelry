@@ -1,48 +1,53 @@
-.hero {}
-
-.container {}
-
 .hero__container {
-    padding-top: 412px;
-    padding-bottom: 120px;
+  padding-top: 412px;
+  padding-bottom: 120px;
+  position: relative;
+
+  background-image: url(../images/bgd-min.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero__wrapper {
-    width: 220px;
-    margin-left: 131px;
-    text-align: center;
+  width: 220px;
+  margin-left: 131px;
+  text-align: center;
 }
 
 .hero__title {
-    font-size: 31px;
-        line-height: 1.39;
-        font-weight: 400;
-     
-    
-        // text-align: center;
+  font-size: 31px;
+  line-height: 1.39;
+  font-weight: 400;
 }
 
 .hero__text {
-    font-size: 16px;
-        line-height: 1.62;
-        margin-bottom: 21px;
-       
-    
-        // text-align: center;
+  font-size: 16px;
+  line-height: 1.62;
+  margin-bottom: 21px;
 }
-.hero__btn--left{
-    display: inline-block;
-    
-        padding-top: 8px;
-        padding-bottom: 8px;
-        padding-left: 40px;
-        padding-right: 40px;
-        font-size: 14px;
-        line-height: 1.14;
-        color: inherit;
-        border-radius: 20px;
-        background-color: $color-btn-header;
-    //    margin-left: auto;
-    //    margin-right: auto;
-    //    text-align: center;
+.hero__btn {
+  background-color: $color-btn-header;
+}
+.rectangle {
+  position: absolute;
+  width: 47px;
+  height: 116px;
+  top: 229px;
+  left: 30px;
+  background-color: $color-left-hero;
+}
+.rectangle__text {
+  margin-left: 10px;
+  margin-top: 18px;
+
+  font-size: 13px;
+  line-height: 1.51;
+  text-transform: uppercase;
+
+  color: $color-left-rext;
+}
+.hero__btn--right {
+  position: absolute;
+  right: 150px;
+  bottom: 80px;
 }
