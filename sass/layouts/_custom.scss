@@ -10,10 +10,12 @@
 }
 .custom__container {
   width: 1200px;
+
   background-image: url(../images/flower.png), url(../images/engagement-01.png);
   background-position: 660px 0, 800px 0;
   background-repeat: no-repeat;
   background-size: contain;
+  outline: 1px solid rgb(44, 212, 35);
 }
 .custom__container--min {
   margin-left: 97px;

@@ -1,0 +1,43 @@
+.men {
+  width: 1230px;
+
+  padding-top: 64px;
+  padding-bottom: 57px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: url(../images/bgd-men-min.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: $color-for-all;
+}
+
+.men__container {
+  width: 450px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-right: 82px;
+  text-align: center;
+}
+
+.men__title {
+  margin-bottom: 14px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.62;
+
+  letter-spacing: 0.28px;
+}
+
+.men__subtitle {
+  margin-bottom: 17px;
+  font-weight: 400;
+  font-size: 41px;
+  line-height: 1.46;
+}
+
+.men__text {
+  margin-bottom: 43px;
+  font-size: 16px;
+  line-height: 1.62;
+}
