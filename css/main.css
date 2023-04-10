@@ -313,5 +313,62 @@ swiper-slide img {
 }
 
 .custom {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  padding-top: 65px;
+  padding-bottom: 50px;
   background-color: #98B7A4;
+}
+
+.custom__wrapper {
+  text-align: center;
+}
+
+.custom__container {
+  width: 1200px;
+  background-image: url(../images/flower.png), url(../images/engagement-01.png);
+  background-position: 660px 0, 800px 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.custom__container--min {
+  margin-left: 97px;
+  width: 460px;
+  outline: 1px solid burlywood;
+}
+
+.custom__title {
+  margin-bottom: 14px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.62;
+  letter-spacing: 0.28px;
+}
+
+.custom__subtitle {
+  margin-bottom: 51px;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 1.17;
+}
+
+.custom__text {
+  margin-bottom: 47px;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.custom__wrapper--btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }/*# sourceMappingURL=main.css.map */
