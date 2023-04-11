@@ -39,11 +39,6 @@ img {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  outline: 1px solid rgb(123, 255, 86);
-}
-
-section {
-  outline: 1px solid tomato;
 }
 
 .visually-hidden {
@@ -348,13 +343,11 @@ swiper-slide img {
   background-position: 660px 0, 800px 0;
   background-repeat: no-repeat;
   background-size: contain;
-  outline: 1px solid rgb(44, 212, 35);
 }
 
 .custom__container--min {
   margin-left: 97px;
   width: 460px;
-  outline: 1px solid burlywood;
 }
 
 .custom__title {
@@ -450,7 +443,7 @@ swiper-slide img {
 .footer {
   background-color: #F9F6F0;
   padding-top: 143px;
-  padding-bottom: 48px;
+  padding-bottom: 90px;
 }
 
 .footer__title {
@@ -480,7 +473,7 @@ swiper-slide img {
   display: -ms-flexbox;
   display: flex;
   gap: 25px;
-  margin-right: 10px;
+  margin-right: 25px;
 }
 
 .footer__wrapper--generel {
@@ -498,8 +491,8 @@ swiper-slide img {
 
 .footer__wrapper--centrel {
   position: absolute;
-  top: 10px;
-  left: 425px;
+  top: -50px;
+  left: 460px;
   text-align: center;
 }
 
@@ -510,11 +503,77 @@ swiper-slide img {
 }
 
 .footer__wrapper--centrel--down {
+  margin-bottom: 24px;
   font-weight: 400;
   font-size: 41px;
   line-height: 1.46;
 }
 
-.form__input[placeholder] {
-  color: red;
+.form__input {
+  width: 343px;
+  height: 31px;
+  padding-left: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+
+.form__input::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+  outline: none;
+  color: #333333;
+}
+
+.form__input::-moz-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+  outline: none;
+  color: #333333;
+}
+
+.form__input:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+  outline: none;
+  color: #333333;
+}
+
+.form__input::-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+  outline: none;
+  color: #333333;
+}
+
+.form__input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+  outline: none;
+  color: #333333;
+}
+
+.form__input:focus {
+  outline: none;
+  border-color: #98B7A4;
+}
+
+.form {
+  position: relative;
+}
+
+.form__btn {
+  position: absolute;
+  top: 0;
+  left: 260px;
+  width: 98px;
+  height: 35px;
+  background: #98B7A4;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
