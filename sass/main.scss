@@ -1,6 +1,7 @@
 @import 'utils/variables';
 @import 'base/commons.scss';
 @import 'components/containers';
+@import 'utils/hide';
 @import 'layouts/header';
 @import 'components/line-link';
 @import 'components/buttons';
@@ -11,3 +12,5 @@
 @import 'layouts/about';
 @import 'layouts/custom';
 @import 'layouts/men';
+@import 'layouts/addition';
+@import 'layouts/footer';

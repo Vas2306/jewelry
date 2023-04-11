@@ -10,14 +10,17 @@ body {
 .link {
   text-decoration: none;
   cursor: pointer;
-  display: block;
+  // display: block;
 }
 h1,
 h2,
 h3,
+h4,
+h5,
+h6,
 p {
   margin: 0;
 }
-img{
-    display: block;
+img {
+  display: block;
 }

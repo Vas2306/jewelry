@@ -9,18 +9,20 @@
     justify-content: center;
 }
 .header-up__text {
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-size: 12px;
         line-height: 1.62;
         color: inherit;
-        // padding-top: 10px;
-        // padding-bottom: 10px;
-}
+  }
 .header-down{
    padding-top: 19px;
     padding-bottom: 21px;
     background-color: $color-header-down;
 }
 .header-down__list{
+    padding-top: 5px;
+    padding-bottom: 5px;
 display: flex;
     gap: 60px;
     justify-content: center;
