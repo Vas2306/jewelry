@@ -17,6 +17,7 @@ body {
 .link {
   text-decoration: none;
   cursor: pointer;
+  color: inherit;
 }
 
 h1,
